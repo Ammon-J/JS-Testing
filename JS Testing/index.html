@@ -1,0 +1,39 @@
+<!--Post this website to the internet-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+    <title>JavaScript Testing</title>
+</head>
+<body>
+    <!--This is for the new and approved hello world-->
+    <form>
+        <div class="full-name">
+            <label id="label-name" for="full-name">Please Enter your Full Name:</label>
+        </div>
+
+        <div class="textbox">
+            <input id="full-name" type="text">
+        </div>
+
+        <br>
+
+        <div class="button">
+            <button id="button" onclick="main();" type="button">Display Name</button>
+        </div> 
+    </form>
+
+    <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="heading">
+            <h1 id="output"></h1>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+</body>
+</html>
